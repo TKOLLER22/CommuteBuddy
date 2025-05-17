@@ -1,13 +1,13 @@
+import { ThemedText } from "@/components/ThemedText";
+import { ThemedView } from "@/components/ThemedView";
 import React from "react";
-import { View, Text } from "react-native";
 
-export default function add() {
-  
+export default function Add() {
   return (
     <>
-    <View>
-        <Text>Add Your Route</Text>
-    </View>
+      <ThemedView style={{position: 'absolute', top: '8%', left:'5%'}}>
+        <ThemedText type="title">Add Your Route</ThemedText>
+      </ThemedView>
     </>
   );
 }
