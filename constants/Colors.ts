@@ -1,24 +1,24 @@
 
-const tintColorLight = '#297373'; // teal for light mode
-const tintColorDark = '#f3b700';  // yellow for dark mode
+const tintColorLight = '#297373'; // elegant teal for light mode
+const tintColorDark = '#f3b700';  // vibrant yellow for dark mode
 
 export const Colors = {
   light: {
-    text: '141414',            // dark gray for good readability
-    background: 'transparent',
-    buttonText:'#e6e6e6',       // light gray background
-    tint: tintColorLight,       // primary accent (teal)
-    icon: '#95190c',            // deep red for alert-style icons
-    tabIconDefault: '#297373',  // same as tint
+    text: '#202020',             // strong readable charcoal
+    background: '#ffffff',       // pure white for clean design
+    buttonText: '#ffffff',       // white text on buttons
+    tint: tintColorLight,        // main accent (teal)
+    icon: '#D9534F',             // soft red (Bootstrap danger)
+    tabIconDefault: '#B0B0B0',   // muted gray for unselected
     tabIconSelected: tintColorLight,
   },
   dark: {
-    text: '#e6e6e6',            // light gray on dark background
-    background: 'transparent',
-    buttonText:'#141414',      // dark gray as the base
-    tint: tintColorDark,        // bold yellow pops on dark
-    icon: '#f3b700',            // same as tint for icons
-    tabIconDefault: '#e6e6e6',  // subtle light gray
+    text: '#e6e6e6',             // soft white text
+    background: '#141414',       // deep dark gray
+    buttonText: '#141414',       // dark text on bright buttons
+    tint: tintColorDark,         // warm yellow pop
+    icon: '#f3b700',             // yellow alert icons
+    tabIconDefault: '#555555',   // muted dark gray
     tabIconSelected: tintColorDark,
   },
 };
